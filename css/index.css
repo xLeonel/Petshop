@@ -43,7 +43,7 @@ body {
 }
 
 .navbar-right a:hover {
-    color: white;
+    color: #E53613;
     text-shadow: 1px 1px #0C0507;
 }
 
@@ -177,30 +177,159 @@ body {
     justify-content: center;
 }
 
-.section-sobre-nos {
+.section-faleConosco {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+
+.section-faleConosco h2{
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 0 0 20px 0;
+}
+
+.form-split {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.form-test {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-test label {
+    padding: 10px 30px 0 30px;
+}
+
+.form-test label , button {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#enviar {
+    float: right;
+    padding: 10px 0 10px 0;
+}
+
+#enviar button {
+    text-align: center;
+    width: 10em;
+    height: 3em;
+    cursor: pointer;
+    color: white;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #0C0507;
+    margin: 5px 30px 0 30px;
+
+}
+
+#enviar button:hover {
+    background-color: #E53613;
+    color: white;
+    -o-transition: all .4s ease-out;
+    -webkit-transition: all .4s ease-out;
+    transition: all .4s ease-out;
+}
+
+
+input[type=text] {
+    width: 40em ;
+    height: 3em;
+    margin: 5px 30px 0 30px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+}
+
+#servicos-select {
+    width: 40em ;
+    height: 3em;
+    margin: 5px 30px 0 30px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+}
+
+textarea {
+    height: 6em;
+    vertical-align: top;
+    resize: vertical;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 5px 30px 0 30px;
+    padding: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     background-color: #E8E1CF;
-    height: 400px;
+    height: 180px;
+    margin-left: -15%;
 }
 
-.section-sobre-nos-left img {
-    height: 300px;
-    width: 400;
-}
-
-.section-sobre-nos-right {
+.footer-left {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
     width: 40%;
 }
 
-.section-sobre-nos-right p{
-    margin-top: 3%;
-    letter-spacing: 0.5px;
+.logo-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.footer-left img{
+    width: 90px;
+    height: 90px;
+}
+
+#title-footer{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 20px;
+}
+
+#adress {
+    margin-top: 5px;
+    margin-left: 125px;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 10%;
+}
+
+.footer-right h3{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.redes-sociais {
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.redes-sociais img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.credits {
+    background-color: #E8E1CF;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
 }
