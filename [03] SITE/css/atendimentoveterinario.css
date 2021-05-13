@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E8E1CF;
+    height: 120px;
+    margin-bottom: 3em;
+}
+
+.navbar-left img {
+    width: 90px;
+    height: 90px;
+    margin: 10px 30px; 
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    margin: 0 30px; 
+}
+
+.navbar-right a {
+    text-decoration: none;
+    color: #0C0507;  
+    margin-right: 40px; 
+    font-size: large;
+}
+
+.navbar-right a:hover {
+    color: #E53613;
+    text-shadow: 1px 1px #0C0507;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #E8E1CF;
+    height: 180px;
+    margin-left: -15%;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-left img{
+    width: 90px;
+    height: 90px;
+}
+
+#title-footer{
+    font-weight: bold;
+    font-size: large;
+    margin-left: 20px;
+}
+
+#adress {
+    margin-top: 5px;
+    margin-left: 125px;
+    background-image: url();
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 10%;
+}
+
+
+.footer-right h3{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.redes-sociais {
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.redes-sociais img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.textName {
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+
+.credits {
+    background-color: #E8E1CF;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.primeiradiv {
+    justify-content: space-evenly;
+    margin-bottom: 5em;
+}
+
+.centralizeTextwiththeImage{
+    align-self: center;
+}
+
+.segundadiv {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+}
+
+.styleText {
+    max-width: 500px;
+    color: black;
+    font-size: 18px;
+    text-align: left;
+}
+
+
+.foto1{
+    border: 2px solid black;
+    width: 500px;
+}
+
+.foto2{
+    border: 2px solid black;
+    width: 500px;
+
+}
