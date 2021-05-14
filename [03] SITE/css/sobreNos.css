@@ -1,0 +1,50 @@
+body { 
+    background:url(../img/dog1.jpg);
+    background-size:cover;
+    } 
+    
+    li { background-color:rgb(91,155,213);
+         border:1px solid green;
+         width:190px;
+         display:inline-block;
+         margin-right:15px;
+        }
+    		 
+
+  #principal { 
+    width:860px;
+    margin:0px;	
+    border : 1px solid black;
+
+              }
+
+#faixa { 
+
+    height:50px;
+    text-align:center;
+    margin:40px;
+    border : 0px solid black;
+    font-size:40px;
+        }
+
+#conteudo {
+    text-align:center;
+    height:350px;
+    margin-top:0px;
+    border : 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size:22px;
+}
+
+#rodape {
+
+    height:40px;
+    text-align:center;
+    border : 1px solid black;
+         }
+    
+    #valores { 
+        display: flex; 
+        justify-content: space-around;
+        margin-bottom: 2em;
+    }
